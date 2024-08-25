@@ -37,7 +37,7 @@ unzip flickr8k.zip
 Installation
 To run this project, you need to have the following dependencies installed:
 
-```bash
+
 pip install keras tensorflow numpy tqdm kaggle
 
 ## Project Structure
@@ -58,11 +58,11 @@ kaggle
 Install all required libraries.
 Download and extract the dataset.
 Upload your kaggle.json file using:
-  ```bash
+  
   from google.colab import files
   files.upload()
   Move the kaggle.json file as described in the Installation section.
-Run the code to extract features, preprocess data, and train the model.
+  Run the code to extract features, preprocess data, and train the model.
 
 ### Usage
 You can customize the code for different image datasets or experiment with various pre-trained models. The project is modular, allowing easy integration of other feature extractors or different text models.
